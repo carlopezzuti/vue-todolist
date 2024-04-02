@@ -1,0 +1,63 @@
+/* #region RESET */
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+/* #endregion RESET */
+
+/* #region GENERAL */
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+/* #endregion GENERAL */
+
+/* #region HEADER */
+img{
+    width: 50%;
+}
+/* #endregion HEADER */
+
+/* #region MAIN */
+/*input*/
+#task-input, #task-input + button{
+    border: 1px solid gray;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+#task-input{
+    width: 60%;
+    margin-right: 10px;
+}
+
+/*list*/
+.task-container{
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 10px 30px;
+    text-align: left;
+}
+
+li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li + li{
+    border-top: 1px solid grey;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+/* #endregion MAIN */
